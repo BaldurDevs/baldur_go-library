@@ -1,4 +1,4 @@
-module github.com/BaldurDevs/baldur_go-toolkit
+module github.com/BaldurDevs/baldur_go-library
 
 go 1.19
 
