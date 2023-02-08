@@ -5,6 +5,10 @@ import (
 	"net/http"
 )
 
+func PingHandlerFactory() Handler {
+	return NewPingHandler()
+}
+
 func NewPingHandler() Handler {
 	return &pingHandler{}
 }
