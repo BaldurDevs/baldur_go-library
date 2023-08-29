@@ -1,5 +1,5 @@
 package configsloader
 
-func ConfigsLoaderFactory() *configsLoader {
-	return &configsLoader{}
+func ConfigsEnvLoaderFactory() ConfigsLoader {
+	return &configsEnvLoader{}
 }
