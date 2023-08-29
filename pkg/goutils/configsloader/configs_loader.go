@@ -4,10 +4,10 @@ import (
 	"github.com/joho/godotenv"
 )
 
-type ConfigsLoader struct {
+type configsLoader struct {
 }
 
-func (cl *ConfigsLoader) loadFile(fileName string) error {
+func (cl *configsLoader) LoadFile(fileName string) error {
 	if err := godotenv.Load(fileName); err != nil {
 		return err
 	}
